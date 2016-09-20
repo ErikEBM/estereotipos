@@ -5,6 +5,7 @@
     overflow: hidden;
     padding: 20px 10px;
     text-align: center;
+    position: relative;
 }
 
 .capa-input {
@@ -54,4 +55,19 @@
 
 .capa-input-pool {
     transform: rotate(-90deg);
+}
+
+.capa-iron-icon {
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    
+    
+    
+}
+
+.capa-iron-icon iron-icon {
+    height: 18px;
+    width: 18px;
+    color: #218bb5;
 }
