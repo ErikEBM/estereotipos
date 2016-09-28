@@ -1,0 +1,16 @@
+.clase1 {
+    background-color: orangered;
+}
+.clase2 {
+    background-color: yellowgreen;
+}
+.clase3 {
+    background-color: saddlebrown;
+}
+.clase4 {
+    background-color: mediumspringgreen;
+}
+.clase0 {
+    display: flex;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icons/iron-icons.html">
+
+<!--
+`bpm-inicio`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="bpm-inicio">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+      .capa-inicio {
+        
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        display: inline-block;
+      }
+      .capa-inicio iron-icon {
+        margin-left: 6px;
+        margin-top: 3px;
+      }
+      .capa-tipo-inicio .capa-inicio {
+       border: 2px solid mediumseagreen;
+      }
+      .capa-tipo-inicio iron-icon {
+        color: mediumseagreen;
+
+      }
+       .capa-tipo-fin .capa-inicio {
+       border: 2px solid #B9032F;
+      }
+      .capa-tipo-fin iron-icon {
+        color: #B9032F;
+
+      }
+    </style>
+    <div class$="capa-tipo-{{tipo}}">
+      <div class="capa-inicio">
+        <iron-icon icon="icons:[[icono]]"></iron-icon>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'bpm-inicio',
+
+      properties: {
+        icono: {
+          type: String,
+          value: 'mail',
+        },
+        tipo: {
+          type: String,
+          value: 'inicio',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
