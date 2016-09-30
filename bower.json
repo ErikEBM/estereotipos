@@ -1,0 +1,21 @@
+{
+  "name": "actividad",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "erikEBM <howl_bm96@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ErikEBM/estereotipos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+    "iron-icons": "PolymerElements/iron-icons#^1.1.3"
+  }
+}
