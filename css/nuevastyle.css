@@ -36,5 +36,9 @@
 
 .hide {
     display: none;
-    
+
+}
+
+.block {
+    width: 100%;
 }
