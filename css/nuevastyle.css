@@ -1,0 +1,35 @@
+.menu {
+    height: 5vh;
+    background-color: orangered;
+    
+}
+.nav {
+    height: 5vh;
+    background-color: greenyellow;
+}
+
+.div1 {
+    display: flex;
+    height: 90vh;
+}
+
+.div_aside {
+    width: 5%;
+    background-color: saddlebrown;
+    
+    
+}
+
+.div_section {
+    width: 95%;
+    background-color: sandybrown;
+}
+
+
+
+.div_aside>div {
+    font-size: 12px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 0;
+}

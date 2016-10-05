@@ -1,0 +1,1 @@
+var palette = document.getElementById("id_div"); 
